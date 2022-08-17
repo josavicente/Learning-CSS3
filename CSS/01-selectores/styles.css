@@ -1,0 +1,86 @@
+/* Selectores */
+
+/* Universal */
+*{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      margin: 0px;
+      padding: 10px;
+}
+
+/* Etiqueta */
+h1{
+      font-size: 64px;
+      background: antiquewhite;
+      padding: 10px;
+}
+
+a{
+      font-size: 18px;
+      color: seagreen;
+      text-decoration: none;
+}
+
+footer a{
+      font-size: 18px;
+      color: red;
+      text-decoration: none;
+
+}
+/* Id */
+
+#descripcion, 
+#titulo
+{
+      border: 5px solid black;
+      padding: 15px;
+}
+/* Clase */
+
+.parrafo{
+      font-style: italic;
+      text-decoration: none;
+      font-weight: bold;
+}
+
+/* atributo */
+
+#usuario form{
+      border: 5px solid blue;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      padding: 20px;
+}
+
+#usuario form *{
+      display: block;
+}
+
+input[type="text"]{
+      font-weight: bold;
+      width: 200px;
+}
+input[type="submit"]{
+      background: greenyellow;
+      color: black;
+      padding: 15px;
+      border-radius: 15px;
+      text-transform: uppercase;
+      cursor: pointer;
+
+}
+/* Selectores hijo */
+
+#menu > li > a{
+      font-size: 18px;
+      color: orange;
+      text-decoration: none;
+}
+
+/* Prioridad */
+
+#saludo h1 {
+      background: brown;
+}
+h1{
+      background: purple !important;
+}
