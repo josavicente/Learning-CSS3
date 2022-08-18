@@ -1,0 +1,22 @@
+*{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li {
+      font-size: 20;
+}
+ul li:first-child{
+      color: purple;
+      font-weight: bold;
+}
+
+ul li:nth-child(2) {
+      color: navy;
+      font-weight: bold;
+}
+
+ul li:last-child {
+      color: gray;
+      font-weight: bold;
+}
+
