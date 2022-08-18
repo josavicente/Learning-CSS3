@@ -57,22 +57,61 @@
 #lateral{
       float: left;
       width: 30%;
+      max-height: 550px;
+      overflow: scroll;
 }
 
+
+#contenido > h1 {
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+      padding: 15px;
+      color:#444;
+      text-shadow: 1px 1px 2px rgb(162, 162, 162);
+}
 #contenido .caja {
       width: 40%;
       height: 250px;
-      background-color: rgb(15, 118, 236);
-      border: 5px solid white;
-      color: white;
+      background-color: #ccc;
+      border: 1px solid gray;
+      color: #444;
       float: left;
       margin: 20px;
-}
+      text-align: center;
+      line-height: 200px;
+      text-transform: uppercase;
+      box-shadow:  1px 1px 2px gray;
+      border-radius:  50px 10px 4px 61px;
 
+}
+.sombra-interior{
+      box-shadow:  1px 1px 2px gray inset !important;
+}
 footer {
       width: 100%;
       heigth: 55px;
       background-color: #eee;
       text-align: center;
       color: #444;
+}
+.libre {
+      position: absolute;
+      top: 0px;
+      border: 1px solod black;
+      background-color: red;
+      color: white;
+      width: 50px;
+      height: 50px;
+      font-size: 13px;
+}
+
+.fija {
+      position: fixed;
+      top: 0px;
+      border: 1px solod black;
+      background-color: red;
+      color: white;
+      width: 50px;
+      height: 50px;
+      font-size: 13px;
 }
