@@ -7,6 +7,12 @@ h1{
       font-family: RobotoFuenteCustom;
       font-size: 50px;
       font-style: oblique;
+
+      /*colores: sistema, Hex, RGB, RGBA*/
+      color: mediumaquamarine;
+      color: #593232;
+
+
 }
 
 h3{
