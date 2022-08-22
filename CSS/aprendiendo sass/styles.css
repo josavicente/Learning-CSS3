@@ -3,4 +3,29 @@ body {
   font-family: sans-serif, helvetica, arial;
 }
 
+.caja {
+  border: 1pc solid black;
+  width: 500px;
+  margin: 0px auto;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+}
+.caja h1 {
+  color: blue;
+}
+.caja p {
+  color: green;
+}
+.caja .info {
+  font-size: 10px;
+}
+.caja .info .autor {
+  color: orange;
+}
+
+h1 {
+  font-family: sans-serif, helvetica, arial;
+}
+
 /*# sourceMappingURL=styles.css.map */
