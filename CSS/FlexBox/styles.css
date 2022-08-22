@@ -11,11 +11,17 @@ body{
       flex-direction: row;
       */
       flex-flow: row wrap;
+      justify-content: space-around;
+
+      height: 700px;
+      align-items: center;
+
       border: 3px solid black;
       padding: 5px;
 }
 
-.caja{
+.caja {
+      flex-basis: calc((100% / 3) - 68);
       font-size: 20px;
       font-weight: bold;
       text-align: center;
@@ -27,18 +33,16 @@ body{
 }
 
 .red{
-      order: 4;
+      align-self: flex-start;
       background-color: red;
 }
 .green{
-      order: 2;
       background-color: green;
 }
 .orange{
-      order: 3;
+      align-self: flex-start;
       background-color: orange;
 }
 .blue{
-      order: 1;
       background-color: blue;
 }
