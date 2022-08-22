@@ -24,6 +24,18 @@ body {
   color: orange;
 }
 
+.caja {
+  border: 5 solid red;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px black;
+}
+
+.listado {
+  border: 10px solid green;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px lightgreen;
+}
+
 h1 {
   font-family: sans-serif, helvetica, arial;
 }
