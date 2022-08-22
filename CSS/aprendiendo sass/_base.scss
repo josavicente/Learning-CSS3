@@ -1,6 +1,6 @@
 
 $fuente-tipica: sans-serif, helvetica, arial;
-$color-fondo: #ccc;
+$color-fondo: green;
 $color-lketra: red;
 
 
@@ -99,3 +99,19 @@ $wrap: 900px;
 .clearfix{
       clear:both;
 }
+
+h1{
+      @if $color-fondo== #ccc {
+            color: black
+      } @else {
+            color: lightsalmon;
+      }
+}
+
+$contador: 1;
+
+@for $contador from 1 through 8{
+      .listado ul li:nth-child(#{$contador}){
+            font-size: $contador * 5px;
+      }
+} 

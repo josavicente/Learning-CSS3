@@ -1,5 +1,5 @@
 body {
-  background-color: #ccc;
+  background-color: green;
   font-family: sans-serif, helvetica, arial;
 }
 
@@ -69,6 +69,42 @@ h1 {
 
 .clearfix {
   clear: both;
+}
+
+h1 {
+  color: lightsalmon;
+}
+
+.listado ul li:nth-child(1) {
+  font-size: 5px;
+}
+
+.listado ul li:nth-child(2) {
+  font-size: 10px;
+}
+
+.listado ul li:nth-child(3) {
+  font-size: 15px;
+}
+
+.listado ul li:nth-child(4) {
+  font-size: 20px;
+}
+
+.listado ul li:nth-child(5) {
+  font-size: 25px;
+}
+
+.listado ul li:nth-child(6) {
+  font-size: 30px;
+}
+
+.listado ul li:nth-child(7) {
+  font-size: 35px;
+}
+
+.listado ul li:nth-child(8) {
+  font-size: 40px;
 }
 
 h1 {
