@@ -9,7 +9,7 @@ body{
       margin: 0px auto;
       display:grid;
       gap: 10px;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(2, 1fr) 3fr;
       border: 3px solid orangered;
       padding: 10px;
@@ -26,16 +26,20 @@ body{
 }
 
 .layout .red{
-      grid-column: 1 / 3;
+      grid-column: 1 / 4;
       background-color: lightcoral;
 }
 .layout .blue{
+      grid-column: 2 / 4;
       background-color: lightblue;
 }
 .layout .green{
+      grid-row-start: 2;
+      grid-row-end: 4;
       background-color: lightgreen;
 }
 .layout .pink{
+      grid-column: 2 / 3;
       background-color: lightpink;
 }
 
@@ -45,6 +49,6 @@ body{
 
 .layout .yellow{
       grid-column-start: 1;
-      grid-column-end: 3;
+      grid-column-end: 4;
       background-color: lightyellow;
 }
