@@ -50,3 +50,52 @@ body{
 .listado{
       @include crearBordes(green, 10px, lightgreen );
 }
+
+//Herencia
+
+%alert-normal {
+      border: 1px solid gray;
+      background-color: #ccc;
+      color: white;
+      padding: 10px;
+      width: 80%;
+}
+
+.alert {
+      @extend %alert-normal;
+}
+
+.alert-danger{
+      @extend %alert-normal;
+      color: red;
+}
+
+.alert-warning{
+      @extend %alert-normal;
+      color: orange;
+}
+
+// operadores
+
+h1{
+      font-size: 20px + 5px;
+}
+
+
+$caja: 200px;
+$wrap: 900px;
+
+.cajas{
+      width: 900px;
+      margin: 0px auto;
+}
+
+.caja{
+      float:left;
+      width: $caja / $wrap * 100%;
+      margin: 10px;
+}
+
+.clearfix{
+      clear:both;
+}
